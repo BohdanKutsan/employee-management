@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\K_Bog\\Desktop\\CRUD-employee-management--master\\PersonDepartWF\\NUnit_DepartTest\\NUnit_Moq_DepartTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\K_Bog\\Desktop\\CRUD-employee-management--master\\PersonDepartLib\\PersonDepartLib.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\K_Bog\\Desktop\\CRUD-employee-management--master\\PersonDepartLib\\PersonDepartLib.csproj",
+        "projectName": "PersonDepartLib",
+        "projectPath": "C:\\Users\\K_Bog\\Desktop\\CRUD-employee-management--master\\PersonDepartLib\\PersonDepartLib.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\K_Bog\\Desktop\\CRUD-employee-management--master\\PersonDepartWF\\NUnit_DepartTest\\NUnit_Moq_DepartTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\K_Bog\\Desktop\\CRUD-employee-management--master\\PersonDepartWF\\NUnit_DepartTest\\NUnit_Moq_DepartTest.csproj",
+        "projectName": "NUnit_Moq_DepartTest",
+        "projectPath": "C:\\Users\\K_Bog\\Desktop\\CRUD-employee-management--master\\PersonDepartWF\\NUnit_DepartTest\\NUnit_Moq_DepartTest.csproj",
+        "packagesPath": "C:\\Users\\K_Bog\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\K_Bog\\Desktop\\CRUD-employee-management--master\\PersonDepartWF\\NUnit_DepartTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\K_Bog\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\K_Bog\\Desktop\\CRUD-employee-management--master\\PersonDepartLib\\PersonDepartLib.csproj": {
+                "projectPath": "C:\\Users\\K_Bog\\Desktop\\CRUD-employee-management--master\\PersonDepartLib\\PersonDepartLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
